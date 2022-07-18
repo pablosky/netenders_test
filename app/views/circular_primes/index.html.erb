@@ -2,7 +2,7 @@
   <%= form_for :circular_primes_calculator, url: root_path, method: :get do |form| %>
     <%= form.number_field :limit %>
     <%= form.submit 'Calculate ' %>
-  <% end  %>
+  <% end %>
   <h3>Limit :<%= @limit %> </h3>
   <h3>C Primes: <%= @circular_primes %> </h3>
   <h3>Primes: <%= @primes %> </h3>
