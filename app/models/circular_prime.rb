@@ -11,7 +11,7 @@ class CircularPrime
   end
 
   def find_number(array, number)
-    #include? its O(n) and too slow for big calculations
+    #include? its O(n) and too slow for big arrays
     left = 0;
     right = array.length - 1;
 
