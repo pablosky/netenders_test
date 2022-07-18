@@ -1,0 +1,19 @@
+create environment using docker
+-> docker-compose up
+in other terminal 
+-> docker exec -it rails-web bash
+     -> bundle exec rails db:create
+-> install rspec
+  bundle exec rails generate rspec:install
+
+
+add model/service for isCircularPrime
+  -> calculate prime numbers
+  -> Now for every prime number from first method,
+  one after another, we should check whether its all
+  rotations are prime or not:
+   -> If yes then print that prime number.
+   -> If no then skip that prime number.
+add tests for model
+add controller for isCircularPrime
+add tests for controller
